@@ -1,0 +1,32 @@
+{
+  "info": {
+    "_postman_id": "aea1f9a0-3d8b-4883-ab00-df2d2159c026",
+    "name": "P01-Lab-API-Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "59077067",
+    "_collection_link": "https://go.postman.co/collection/59077067-aea1f9a0-3d8b-4883-ab00-df2d2159c026?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get Post Test",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/1",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
